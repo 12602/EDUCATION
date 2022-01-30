@@ -1,0 +1,26 @@
+.footer
+{
+
+    position: relative;
+    margin-left:200px;
+     
+   
+margin-top:200px;
+width:80%;
+height: 400px;
+}
+.footer h2
+{
+    color: black;
+    position: relative;
+    left: 500px;
+font-size: 40px;
+}
+.footer p
+{
+    position: relative;
+    left:300px;
+    color: black;
+    text-align: center;
+    width: 600px;
+}

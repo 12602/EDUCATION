@@ -1,0 +1,101 @@
+*
+{
+    margin: 0;
+
+    padding: 0;
+    font-family: 'Poppins', sans-serif;    
+
+}
+.section
+{
+    color: white;
+    width: 100%;
+    min-height: 40vh;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7) ),url("/images/library.png");
+}
+.nav 
+{
+position: absolute;
+top:30px;
+width: 100%;
+height: 300px;
+color: white;
+font-size:20px;
+display:inline-block;
+
+}
+
+.nav img 
+{
+    position: relative;
+    left: 62px;
+    width: 200px;
+    display: inline;
+top:-20px;
+}
+.nav-links
+{
+    display: inline-block;
+
+}
+.nav-links ul
+{
+    
+    color: white;
+    position: absolute;
+    top:2px;
+
+    left: 770px;
+      
+
+
+}
+.nav-links li
+{
+    display: inline;
+color: white;
+    list-style: none;
+    position: relative;
+
+
+}
+.nav-links a
+{
+    text-decoration: none;
+    padding:20px;
+    color: white;
+
+    transition-timing-function: ease-in-out;
+    transition:background-color 1s ease-in-out 2s;
+
+    
+}
+.nav-links ul li::after
+{
+    background-color: violet;
+    content: '';
+    height: 3px;
+
+    margin: auto;
+    transition: 3s;
+}
+.nav a:hover
+{
+
+
+
+text-decoration: underline;
+
+
+
+}
+.nav-links  ul::after
+{
+    width: 100%;
+}

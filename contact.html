@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body
+{
+      background-image: linear-gradient(#b5e06f , #c24769);;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 350vh;
+        margin-top: 0px;
+        margin-left: 0px;
+}
+         .section
+{
+    color: white;
+    width: 100%;
+    min-height: 40vh;
+    height: 60vh;
+    top:-60px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7) ),url("/images/banner2.jpg");
+}
+.nav 
+{
+position: absolute;
+
+width: 100%;
+height: 300px;
+color: white;
+font-size:20px;
+display:inline-block;
+top:40px;
+}
+
+.nav img 
+{
+    position: relative;
+    left: 62px;
+    width: 200px;
+    display: inline;
+top:-20px;
+}
+.nav-links
+{
+    display: inline-block;
+
+}
+.nav-links ul
+{
+    
+    color: white;
+    position: absolute;
+    top:-20px;
+
+    left: 770px;
+      
+
+
+}
+.nav-links li
+{
+    display: inline;
+color: white;
+    list-style: none;
+    position: relative;
+
+
+}
+.nav-links a
+{
+    text-decoration: none;
+    padding:20px;
+    color: white;
+
+    transition-timing-function: ease-in-out;
+    transition:background-color 1s ease-in-out 2s;
+
+    
+}
+.nav-links ul li::after
+{
+    background-color: violet;
+    content: '';
+    height: 3px;
+
+    margin: auto;
+    transition: 3s;
+}
+.nav a:hover
+{
+
+
+
+text-decoration: underline;
+
+
+
+}
+.nav-links  ul::after
+{
+    width: 100%;
+}
+
+.section h2
+{
+    position: relative;
+    left: 600px;
+    top:180px;
+    font-size: 50px;
+}
+.map
+{
+    position: relative;
+    top:50px;
+    left: 60px;
+}
+.googlemap img
+{
+    width:80vw;
+    
+    height: 70vh;;
+}
+.address
+{
+    position: relative;
+    top:100px;
+
+}
+.left li
+{
+    list-style: none;
+    padding: 20px;
+    font-size: 30px;
+}
+.right
+{
+    position: relative;
+    top:-230px;
+    left: 600px;
+}
+input
+{
+    width: 380px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+.right textarea
+{
+    margin-top: 30px;
+    text-align: center;
+    width:420px;
+    height: 100px;
+}
+::placeholder
+{
+    color: blueviolet;
+}
+
+input:hover
+{
+    background-color:darkturquoise;
+    color: fuchsia;
+    font-size: 30px;
+
+
+}
+textarea:hover
+{
+        background-color:darkturquoise;
+    color: fuchsia;
+    font-size: 30px;
+}
+
+
+.footer
+{
+
+    position: relative;
+    margin-left:150px;
+     
+   
+margin-top:-100px;
+width:80%;
+height: 400px;
+}
+.footer h2
+{
+    color: black;
+    position: relative;
+    left: 500px;
+font-size: 40px;
+}
+.footer p
+{
+    position: relative;
+    left:300px;
+    color: black;
+    text-align: center;
+    width: 600px;
+}
+.right a
+{
+    position: relative;
+    top:30px;
+    left: 100px;
+    text-align: center;
+    padding: 20px;
+    background-color:cyan;
+    text-decoration: none;
+    width: 200px;
+    display: block;
+}
+.right a:hover
+{
+    color: darksalmon;
+    background-color: darkslategrey;
+}
+
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section class="section">
+        
+        <nav class="nav">
+            <div class="left">
+                <img src="/images/logo.png">
+            </div>
+            <div class="nav-links">
+        <ul >
+            <li class="item"><a href="index.html">Home</a> </li>
+            <li class="item"><a href="about.html">About</a></li>
+            <li class="item"><a href="courses.html">Course</a></li>
+            <li class="item"><a href="blog.html">Blog</a></li>
+            <li class="item"><a href="contact.html
+                ">Contact</a></li>
+        </ul>
+
+</div>
+</nav>
+<h2>Contact Us</h2>
+</section>
+    <section class="map">
+        <div class="googlemap">
+            <img src="/images/HILmr.png">
+        </div>
+    </section>
+    <section class="address">
+       <div class="left">
+           <ul>
+               <li>JAIL ROAD  </li>
+               <li>7489074890</li>
+               <li>js223973@gmail.com</li>
+           </ul>
+           </div>
+
+      <div class="right">
+    <form>
+      <input type="text" placeholder="Enter your name"><br>
+      <input type="text" placeholder="Enter your address"><br>
+      <input type="text" placeholder="Enter your subject"><br>
+      <textarea placeholder="Message"></textarea>  
+      <a href="#">Submit</a>
+    </form>
+</div>
+    </section>
+
+
+    <footer class="footer">
+    <h2>
+        About Us
+    </h2>
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque voluptas animi aliquam quibusdam architecto laborum, reiciendis illum dignissimos recusandae quos!
+    </p>
+        
+</footer>
+</body>
+</html>
